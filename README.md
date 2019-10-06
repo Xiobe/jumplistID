@@ -17,6 +17,8 @@ create table jumplist(AppID TEXT PRIMARY KEY, AppDesc TEXT NOT NULL, DateAdded D
 ```
 
 # Data
+The data comes from ForensicWiki.org, I transformed it into a SQLite database since I needed it offline in an easy format.
+
 ```
 INSERT INTO jumplist (AppID, AppDesc, DateAdded) VALUES ('9c7cc110ff56d1bd','Microsoft Office PowerPoint 2010 x86',datetime('now'));
 INSERT INTO jumplist (AppID, AppDesc, DateAdded) VALUES ('10f5a20c21466e85','FTP Voyager 15.2.0.17',datetime('now'));
