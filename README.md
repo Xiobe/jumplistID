@@ -6,6 +6,9 @@ You can extract the first execution of the application by looking at the creatio
 You can extract the last execution of the application by looking at the modification time. It was the last time an item was added to the AppID file.
 The data stored in the AutomaticDestinations folder.
 
+# Parsing jumplists
+[Eric Zimmerman's tools](https://ericzimmerman.github.io/#!index.md) contain a tool called JLECmd and Jumplist Explorer to handle jumplists.
+
 # Database Create
 ```
 $ sqlite3 jumplist.db 
