@@ -1,10 +1,8 @@
 # jumplist
 Jump lists are "quick access" lists, a bit like MRU but on the GUI-side. You will typically see them when you hoover over your Word-shortcut and see recent files. This functionality does not include recent files but also recent tasks.
 
-The jump lists are stored on the file system and not in the registry like other artifacts. They live in %USERPROFILE%\AppData\Roaming\Microsoft\Windows\recent\AutomaticDestinations. The data stored in the AutomaticDestinations folder will have a unique file prepended with the AppID of the associated application.
-You can extract the first execution of the application by looking at the creation time. It was the time the first item was added to the AppID file.
-You can extract the last execution of the application by looking at the modification time. It was the last time an item was added to the AppID file.
-The data stored in the AutomaticDestinations folder.
+The jump lists are stored on the file system and not in the registry like other artifacts. They live in ```%USERPROFILE%\AppData\Roaming\Microsoft\Windows\recent\AutomaticDestinations```. The data stored in the AutomaticDestinations folder will have a unique file prepended with the AppID of the associated application.
+You can extract the first execution of the application by looking at the creation time. It was the time the first item was added to the AppID file. You can extract the last execution of the application by looking at the modification time. It was the last time an item was added to the AppID file. The data stored in the AutomaticDestinations folder.
 
 # Parsing jumplists
 [Eric Zimmerman's tools](https://ericzimmerman.github.io/#!index.md) contain a tool called JLECmd and Jumplist Explorer to handle jumplists.
